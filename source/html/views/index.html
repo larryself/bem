@@ -21,10 +21,12 @@
   <%= _.template(require('../includes/index/header.html').default)({version: htmlWebpackPlugin.options.custom.version,})
     %>
     <main>
-
+      <%= _.template(require('../includes/index/hero.html').default)({version:
+      htmlWebpackPlugin.options.custom.version,}) %>
       <%= _.template(require('../includes/index/investors.html').default)({version:
         htmlWebpackPlugin.options.custom.version,}) %>
-
+      <%= _.template(require('../includes/index/info-block.html').default)({version:
+      htmlWebpackPlugin.options.custom.version,}) %>
     </main>
     <%= _.template(require('../includes/index/footer.html').default)({}) %>
 </body>
