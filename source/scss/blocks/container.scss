@@ -1,7 +1,6 @@
 .container {
-  margin: 0 auto;
-  width: $sm;
-  padding: 0 20px;
+  position: relative;
+  width: 100%;
 
   @media screen and (min-width: $md) {
     width: $md;
