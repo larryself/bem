@@ -17,6 +17,9 @@
 <!--header.html-->
 <%= _.template(require('../includes/index/header.html').default)({version: htmlWebpackPlugin.options.custom.version,}) %>
 <main>
+
+  <%= _.template(require('../includes/index/investors.html').default)({version: htmlWebpackPlugin.options.custom.version,})
+    %>
  
 </main>
 
