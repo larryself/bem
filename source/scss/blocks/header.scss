@@ -1,4 +1,32 @@
 .header {
   background-color: $white;
-  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  padding: 60px 95px 60px 95px;
 }
+.header__menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 60px;
+  li{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px; 
+      text-align: center;
+      color: #070F18;
+  }
+}
+.header__button {
+      width: 150px;
+      height: 48px;
+      left: 1195px;
+      top: 60px;
+      background: #F5F6FB;
+      border: none;
+      border-radius: 10px;
+    }
